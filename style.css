@@ -25,6 +25,50 @@
   
 }
 
+.h3{
+  font-size: 1.5rem; /* Tamanho da fonte */
+  font-weight: bold; /* Deixa o texto em negrito */
+  color: #333; /* Cor do texto */
+  text-transform: uppercase; /* Deixa o texto em maiúsculas */
+  letter-spacing: 1px; /* Adiciona um espaçamento entre as letras */
+  border-left: 4px solid #007bff; /* Cria uma barra na esquerda para destaque */
+  padding-left: 10px; /* Dá um espaço entre a borda e o texto */
+  margin-bottom: 10px; /* Espaçamento entre o título e o parágrafo */
+}
+
+.text1{
+  font-size: 1rem; /* Define um tamanho de fonte confortável para leitura */
+  color: #555; /* Cor levemente mais clara que o título para contraste */
+  line-height: 1.6; /* Aumenta o espaçamento entre as linhas para melhor legibilidade */
+  text-align: justify; /* Justifica o texto para um visual mais organizado */
+  margin-bottom: 15px; /* Dá um espaço entre os parágrafos */
+  max-width: 800px; /* Limita a largura do texto para melhor leitura */
+}
+
+.tech-stack {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px; /* Espaço entre os ícones */
+  margin-top: 10px;
+}
+
+.tech-icons img {
+  width: 50px; /* Tamanho do ícone */
+  height: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tech-icons img:hover {
+  transform: scale(1.2); /* Efeito de zoom ao passar o mouse */
+}
+
+
 .header {
     display: flex; 
     height: 30px;
