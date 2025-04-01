@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <header class="header"></header>
+
+  <body class="body">
+    <button class="open-sidebar" onclick="toggleSidebar()">☰</button>
+
+    <div id="sidebar" class="sidebar">
+      <button class="close-sidebar" onclick="toggleSidebar()">✖</button>
+      <a href="Index.html">Home</a>
+      <a href="Contact.html">Contato</a>
+      <a href="Projects.html">Projetos</a>
+      <a href="About.html">Sobre Mim</a>
+    </div>
+    <h1>Contato</h1>
+    <h2>Gostaria de entrar em contato comigo?</h2>
+    <section>
+      <h3>
+        Redes sociais:
+        <a href="https://linkedin.com/in/luiz-eduardo-6554992b9">LinkedIn</a>
+      </h3>
+    </section>
+    <h3>você também pode me enviar um E-mail pelo formulário abaixo:</h3>
+    <form
+      action="mailto:xxxxxxxxx@xxxxx.xxx"
+      method="post"
+      enctype="text/plain"
+      class="email-form"
+    >
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="assunto">Assunto:</label>
+      <input type="text" id="assunto" name="assunto" required />
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+  <footer>Luiz Eduardo © 2025 SitePortfolio.</footer>
+</html>
